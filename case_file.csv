@@ -1,0 +1,10 @@
+event_id,time,event,source,status,evidence_gap
+N-01,08:41,Suspicious payroll-themed email delivered to Mira,case_file,observed,Full headers and attachments/links not provided
+N-02,08:44,Successful sign-in from unfamiliar IP and new browser,case_file,observed,No proof the sign-in was made by the email sender
+N-03,08:45,MFA push approved; user denies initiating it,case_file,observed,Approver device and prompt source not provided
+N-04,08:47,External mailbox forwarding rule created,case_file,observed,Rule destination and match conditions not provided
+N-05,08:49,File portal records three document previews under Mira's session,case_file,observed,No confirmed download event; documents not identified
+N-06,08:51,Sign-in attempt from usual office network fails,case_file,observed,Failure reason not provided
+N-07,08:54,User reports the email to IT,case_file,observed,none
+N-08,08:56,Security team disables active sessions and blocks sign-in pending identity verification,case_file,response,none
+N-09,09:02,Mailbox rule removed; investigation remains open,case_file,response,none

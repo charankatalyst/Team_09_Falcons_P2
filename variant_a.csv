@@ -1,0 +1,6 @@
+﻿"event_id","time","event","source","status","evidence_gap"
+"TA-201","10:02","Sign-in from new device","identity_log","observed","User confirmation unavailable"
+"TA-202","10:05","MFA passed after earlier failure","identity_log","observed","Authentication context incomplete"
+"TA-203","10:12","Recovery settings viewed","account_audit","observed","No change confirmed"
+"TA-204","10:18","Several file previews","file_portal_log","observed","No download or outbound-transfer record"
+"TA-205","10:25","Possible data exfiltration","analyst_hypothesis","unconfirmed","Need download/network evidence"
